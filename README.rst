@@ -1,7 +1,7 @@
 == Tasks:
 
-  #. Create an application that can CRUD people considering data below:
-  => Name, Lastname, Gender, Email, Twitter, Password, Country
+#. Create an application that can CRUD people considering data below:
+#. Name, Lastname, Gender, Email, Twitter, Password, Country
 
 == Welcome to Rails
 
