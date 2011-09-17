@@ -1,8 +1,7 @@
 Tasks
 #####
 
-#. Create an application that can CRUD people considering data below:
-#.#. Name, Lastname, Gender, Email, Twitter, Password, Country. => Finished before 17/09/2011
+#. Create an application that can CRUD people considering: Name, Lastname, Gender, Email, Twitter, Password, Country. => Finished before 17/09/2011
 #. Create an user authentication module considering encrypted passwords and login/logout options. => Finished before 24/09/2011
 
 == Welcome to Rails
