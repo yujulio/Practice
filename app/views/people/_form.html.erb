@@ -21,7 +21,7 @@
   </div>
   <div class="field">
     <%= f.label :gender %><br />
-    <%= f.text_field :gender %>
+    <%= f.select( :gender, PeopleHelper::GENDERS, { :include_blank => false } ) %>
   </div>
   <div class="field">
     <%= f.label :email %><br />
@@ -33,7 +33,7 @@
   </div>
   <div class="field">
     <%= f.label :country %><br />
-    <%= f.text_field :country %>
+    <%= f.select( :country, PeopleHelper::COUNTRIES, { :include_blank => false } ) %>
   </div>
   <div class="actions">
     <%= f.submit %>
